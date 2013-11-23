@@ -27,8 +27,8 @@ btcAmount = 0.100172;
 
 currency = 'USD';
 
-rates.fromBTC(btcAmount, currency, function (err, amount) {
-  return console.log("" + btcAmount + " BTC = " + amount + " " + currency);
+rates.fromBTC(btcAmount, currency, function (err, rate) {
+  console.log(btcAmount + " BTC = " + rate + " " + currency);
 });
 ```
 
