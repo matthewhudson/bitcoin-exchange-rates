@@ -1,0 +1,40 @@
+{
+  "name": "bitcoin-exchange-rates",
+  "version": "0.0.11",
+  "homepage": "https://github.com/matthewhudson/bitcoin-exchange-rates",
+  "description": "Convert any Bitcoin amount to your preferred currency.",
+  "keywords": [
+    "bitcoin",
+    "conversion",
+    "convert",
+    "currency",
+    "exchange",
+    "money",
+    "rate",
+    "utilities"
+  ],
+  "author": {
+    "name": "Matthew Hudson",
+    "email": "matthud@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewhudson/bitcoin-exchange-rates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/matthewhudson/bitcoin-exchange-rates/issues"
+  },
+  "dependencies": {
+    "xmlhttprequeset": "latest",
+    "kash": "0.0.8"
+  },
+  "devDependencies": {
+    "coffee-script": "latest",
+    "grunt": "latest",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-watch": "~0.5.1",
+    "grunt-bumpup": "~0.2.0"
+  },
+  "main": "./lib/bitcoin-exchange-rates",
+  "license": "MIT"
+}
