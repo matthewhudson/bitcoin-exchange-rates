@@ -7,7 +7,7 @@
 Using [`npm`](http://npmjs.org/):
 
 ``` sh
-$ npm [-g] install kash
+$ npm [-g] install bitcoin-exchange-rates
 ```
 
 In [Node.js](http://nodejs.org/):
